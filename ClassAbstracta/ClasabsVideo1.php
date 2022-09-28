@@ -9,6 +9,7 @@ abstract class ClaseAbstracta{
         echo $this->getValor();
     }
 }
+///Hereda de la clase padre o claseabstracta
 class ClaseConcreta extends ClaseAbstracta{
     protected function getValor(){
         return " Clase concreta";
@@ -19,6 +20,7 @@ class ClaseConcreta extends ClaseAbstracta{
     }
 }
 
+// las clases abstractas no se pueden instanciar
 $clase1 = new ClaseConcreta;
 $clase1->imprimir();
 echo $clase1->valorPrefijo('  asbdasdas');
