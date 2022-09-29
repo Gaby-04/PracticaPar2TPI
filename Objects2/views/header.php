@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     
-    <title>Aves-</title>
+    <title>PARCIAL2TPI</title>
 </head>
 <body>
     <header>
@@ -20,10 +20,10 @@
         
             <ul>
                 <li><a href="home.php">Home</a></li>
-                <li><a href="rectiles.php">rectiles</a></li>
-                <li><a href="peces.php">peces</a></li>
-                <li><a href="mamiferos.php">mamiferos</a></li>
-                <li><a href="aves.php">aves</a></li>
+                <li><a href="rectiles.php">link1</a></li>
+                <li><a href="peces.php">link2</a></li>
+                <li><a href="mamiferos.php">link3</a></li>
+                <li><a href="aves.php">link4</a></li>
                 
             </ul>
         </nav>

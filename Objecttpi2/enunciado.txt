@@ -1,0 +1,31 @@
+UNIVERSIDAD DE EL SALVADOR
+FACULTAD MULTIDISCIPLINARIA ORIENTAL
+DEPARTAMENTO DE INGENIERÍA Y ARQUITECTURA
+INGENIERÍA DE SISTEMAS INFORMÁTICOS
+Docente: Ing. Diego Armando Herrera
+TÉCNICAS DE PROGRAMACIÓN PARA INTERNET, CICLO II 2021
+2° EXAMEN PARCIAL
+Indicaciones: Desarrollar cada uno de los problemas planteados a continuación, utilizando las técnicas y
+metodologías impartidas en clase.
+Nota: Las primeras líneas de su código fuente deben ser comentarios que indiquen su nombre completo,
+número de carné, y alguna nota adicional que crea conveniente para ser tomada en cuenta.
+A continuación, se muestra un Wireframe correspondiente a un sitio web de una reserva natural de especies,
+la cual podemos consultar para ver información de cada especie, así como sus comportamientos. Traslade el
+anterior Wireframe mostrado a una web real, cumpliendo los siguientes requerimientos:
+1- Montar una estructura MVC para todo el contenido del sitio. (10%).
+2- Usar el paradigma de programación orientada a objetos para todo el desarrollo. Utilice composer para
+mapear su archivo autoload. (15%).
+3- Hacer uso de un controlador frontal que se encargue del despliegue del contenido de cada tarjeta en
+función de lo que el usuario desee consultar. Para ello hará uso del select que se muestra. La tarjeta debe
+contener la imagen de cada animal, su nombre y una descripción. (15%).
+4- El select contendrá la especie de los animales que se desean consultar (Mamíferos, Aves, Reptiles y Peces).
+5- Entre los animales que debe mostrar deben haber por lo menos: Tortugas, Ranas, Tiburones, Pingüinos,
+Anacondas, Avestruces, Perros, Gatos, Delfines, Torogoces y demás especies a su elección; Siempre y cuando
+pertenezcan a las especies definidas. (30%).
+6- Diseñar toda la estructura orientada a objetos, haciendo uso de clases abstractas, que contengan agrupadas
+todas las propiedades y comportamientos según su especie, también deberá utilizar interfaces para agrupar
+comportamiento y traits para agrupar rasgos para que su diseño quede implementado de la manera más
+robusta y óptima posible. Cabe mencionar que todo su diseño deberá derivarse de una superclase llamada
+Animal. (30%).
+PD: Puede utilizar Javascript para agregar comportamiento a los elementos del frontend.
+NOTA: debe subir la solución desarrollada al aula virtual. Comprimir todo en un .zip.
